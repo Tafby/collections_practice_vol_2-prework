@@ -24,7 +24,9 @@ def count_elements(array)
 end
 
 def merge_data(array1, array2)
-   array1.map do |name|
+   array1.each do |hash|
+     hash[:first_name]
+     
      
   #{ :first_name => "blake"}
   #{"blake" => {:awesomeness => 10, :height => "74",:last_name => "johnson" }
