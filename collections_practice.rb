@@ -30,12 +30,14 @@ def merge_data(array1, array2)
        info = hash2[name]
        hash.merge(info)
    end
+  end
+ end
      
      
   #{ :first_name => "blake"}
   #{"blake" => {:awesomeness => 10, :height => "74",:last_name => "johnson" }
   #[{:awesomeness=>10, :first_name=>"blake", :height=>"74", :last_name=>"johnson"}
-end
+
 
 def find_cool(array)
   array.select do |hash| hash.any? {|k,v| v == "cool"}
