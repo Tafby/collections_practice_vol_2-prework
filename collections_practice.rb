@@ -25,7 +25,7 @@ end
 
 def merge_data(array1, array2)
    array1.each do |hash|
-     hash[:first_name]
+     name = hash[:first_name]
      
      
   #{ :first_name => "blake"}
