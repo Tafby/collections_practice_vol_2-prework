@@ -31,6 +31,7 @@ def merge_data(array1, array2)
        array3 << hash.merge(info)
    end
   end
+  array3
  end
      
      
