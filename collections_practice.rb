@@ -28,7 +28,7 @@ def merge_data(array1, array2)
      name = hash[:first_name]
      array2.each do |hash2|
        info = hash2[name]
-       hash.merge(info)
+       array3 = hash.merge(info)
    end
   end
  end
