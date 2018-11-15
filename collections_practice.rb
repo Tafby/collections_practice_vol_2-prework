@@ -24,6 +24,7 @@ def count_elements(array)
 end
 
 def merge_data(array1, array2)
+  array3 = []
    array1.each do |hash|
      name = hash[:first_name]
      array2.each do |hash2|
